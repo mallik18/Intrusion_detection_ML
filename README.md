@@ -6,6 +6,7 @@ Its a piece of code that is used to detect intrusions in a network from unauthor
 The connections recoreded in the dataset is a sequence of TCP packets.
 
 Attacks can be one of the following mentioned:
+
     -DOS: denial-of-service, e.g. syn flood;
     -R2L: unauthorized access from a remote machine, e.g. guessing password;
     -U2R:  unauthorized access to local superuser (root) privileges, e.g., various ``buffer overflow'' attacks;
