@@ -12,4 +12,16 @@ Attacks can be one of the following mentioned:
     -U2R:  unauthorized access to local superuser (root) privileges, e.g., various ``buffer overflow'' attacks;
     -probing: surveillance and other probing, e.g., port scanning.
 
+Info on Dataset:
 
+    -We have used reduced dataset i.e.,(10 percent dataset of the original dataset).
+    -The dataset contains 1L rows of entries.
+    -The dataset contain a total of 24 training attack types, with an additional 14 types in the test dataset only.
+    
+Approach:
+    
+    -First we have started with some Exploratory Data Analysis(EDA) using pandas to see what type of dataset we are working with 
+     and get familiar with it. And to see what are the various attributes considered in the dataset.
+    -Then accordingly we will build a machine learning model classifier to classify the entries into Normal or Attack.
+    -We will be using Scikit-learn python machine learning module to implement the project.
+    
