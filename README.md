@@ -15,7 +15,7 @@ Attacks can be one of the following mentioned:
 Info on Dataset:
 
     -We have used reduced dataset i.e.,(10 percent dataset of the original dataset).
-    -The dataset contains 1L rows of entries.
+    -The dataset contains 494021 rows of entries.
     -The dataset contain a total of 24 training attack types, with an additional 14 types in the test dataset only.
     
 Approach:
