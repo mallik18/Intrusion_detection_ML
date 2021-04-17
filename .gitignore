@@ -1,6 +1,5 @@
 /IDS
 /links.txt
 /.idea
-/src/.ipynb_checkpoints/*.ipynb
 /src/jupyter-notebooks/.ipynb_checkpoints/*.ipynb
 
