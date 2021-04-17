@@ -27,7 +27,7 @@ Approach:
     
 Start:
 
-    1.First run icmp_attack.ipynb file present in jupyter-notebooks directory
+    1.First run icmp_attack.ipynb file present in jupyter-notebooks directory.
         
         - Here we are assigning all the attributes names to the dataset. And refinig the dataset with Exploratory Data Analysis    (EDA).
 
@@ -42,3 +42,10 @@ Start:
             [LogisticRegression, KNeighborsClassifier,MLPClassifier,DecisionTreeClassifier]
 
         
+    2.Then run train.py file present in train_test_python_files directory.
+
+        - Here we taking user input for what type of user wants to train the data on.
+
+        - Training the model "python train.py icmp 0" this will actually train the data set on icmp protocol with the KNN model.
+
+        - TRAINING OUR MODEL "python train.py icmp 1" this will actually train the data set on icmp protocol with the      DecisionTreeClassifier model.
