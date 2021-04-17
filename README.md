@@ -22,27 +22,29 @@ Info on Dataset:
     
 Approach:
     
-    -First we have started with some Exploratory Data Analysis(EDA) using pandas to see what type of dataset
-     we are working with and get familiar with it. And to see what are the various attributes considered in 
-     the dataset.
-    -Then accordingly we will build a machine learning model classifier to classify the entries into Normal or 
-     Attack.
+    -First we have started with some Exploratory Data Analysis(EDA) using pandas to see what type of 
+     dataset we are working with and get familiar with it. And to see what are the various attributes 
+     considered in the dataset.
+    -Then accordingly we will build a machine learning model classifier to classify the entries into 
+     Normal or Attack.
     -We will be using Scikit-learn python machine learning module to implement the project.
     
 Start:
 
     1.First run icmp_attack.ipynb file present in jupyter-notebooks directory.
         
-        - Here we are assigning all the attributes names to the dataset. And refinig the dataset with Exploratory 
-          Data Analysis(EDA).
+        - Here we are assigning all the attributes names to the dataset. And refinig the dataset with 
+          Exploratory Data Analysis(EDA).
 
-        - We are separating all the icmp protocol based data into different dataset and naming it revised_icmp_dataset.
+        - We are separating all the icmp protocol based data into different dataset and naming it 
+          revised_icmp_dataset.
 
         - Then out of all the features we are only selecting 7 features they are:
-            ["duration","service","src_bytes","wrong_fragment","count","urgent","num_compromised","srv_count"]
+            ["duration","service","src_bytes","wrong_fragment","count","urgent","num_compromised",
+             "srv_count"]
 
-        -Then we are spliting the dataset into training and testing dataset with the test_size of 30% of original 
-         datatset.
+        -Then we are spliting the dataset into training and testing dataset with the test_size of 30% 
+         of original datatset.
 
         -Then we training the dataset with different algorithms they are:
             [LogisticRegression, KNeighborsClassifier,MLPClassifier,DecisionTreeClassifier]
@@ -52,8 +54,8 @@ Start:
 
         - Here we taking user input for what type of user wants to train the data on.
 
-        - Training the model "python train.py icmp 0" this will actually train the data set on icmp protocol with the 
-          KNN model.
+        - Training the model "python train.py icmp 0" this will actually train the data set on icmp 
+          protocol with the KNN model.
 
-        - TRAINING OUR MODEL "python train.py icmp 1" this will actually train the data set on icmp protocol with the       
-          DecisionTreeClassifier model.
+        - TRAINING OUR MODEL "python train.py icmp 1" this will actually train the data set on icmp 
+          protocol with the DecisionTreeClassifier model.
