@@ -3,7 +3,7 @@ import sys
 import pickle
     
 def icmp_test(attributes):
-    model = pickle.load(open("/home/noroot/Documents/final_year_project/Intrusion_detection_ML/src/train_test_python_files/models_after_trained/icmp_data1.sav", 'rb'))
+    model = pickle.load(open("/home/mk/Documents/final_year_project/Intrusion_detection_ML/src/train_test_python_files/models_after_trained/icmp_data1.sav", 'rb'))
     result = model.predict([attributes])
     if result[0] == 0:
         print("The Input is Normal")

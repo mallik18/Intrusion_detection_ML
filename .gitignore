@@ -1,5 +1,6 @@
 /IDS
 /links.txt
 /.idea
-/src/jupyter-notebooks/.ipynb_checkpoints/*.ipynb
+/src/jupyter-notebooks/.ipynb_checkpoints*
+src/juypter_notebooks/.ipynb_checkpoints/icmp_attack-checkpoint.ipynb
 
